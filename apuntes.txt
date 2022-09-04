@@ -6,3 +6,6 @@ heroku create -b https://github.com/mars/create-react-app-buildpack.git merm-yos
 git add .
 git commit -m "react-create-app on Heroku"
 git push heroku master
+
+git remote add repo_reacttaks https://github.com/yoshioks1/reacttasks.git
+git push repo_reacttaks master
