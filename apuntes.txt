@@ -2,16 +2,10 @@
 
 
 git init
-heroku create -b https://github.com/mars/create-react-app-buildpack.git merm-yoshio
-git add .
-git commit -m "react-create-app on Heroku"
-git push heroku master
+git remote -v
+
 
 git add .
-git commit -m "react-task-app on Github"
-
-git remote remove repo_merm_task
-git remote remove repo_reacttaks
-
+git commit -m "react tasks app github"
 git remote add origin https://github.com/yoshioks1/reacttasks.git
 git push origin master

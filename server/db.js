@@ -8,6 +8,7 @@ export const pool = createPool({
     database: 'tasksdb'
 })
 */
+//Crearth
 export const pool = createPool({
     host: 'uyu7j8yohcwo35j3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
     port: 3306,
