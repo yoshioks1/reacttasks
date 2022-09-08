@@ -1,11 +1,19 @@
+//1. despues de hacer cambios al codigo (actualizar al static file)
+cd client
+npm run build
 
-
-
+//2. commit en github (cuenta crearth)
 git init
 git remote -v
 
-
+cd..
 git add .
 git commit -m "react tasks app github"
-git remote add origin https://github.com/yoshioks1/reacttasks.git
 git push origin master
+
+-- git remote add origin https://github.com/yoshioks1/reacttasks.git
+
+
+//3. desplegar en github pages
+cd..
+npm run deploy
