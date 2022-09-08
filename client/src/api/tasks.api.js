@@ -16,8 +16,8 @@ export const updateTaskRequest = async (id, newFields) =>{
   return await axios.put(`https://api-merm-tasks.herokuapp.com/tasks/${id}`, newFields);}
 
 export const ToggledDoneTaskRequest = async (id, done) =>{
-  return await axios.put(`http://localhost:4100/tasks/${id}`, {done});}
+  return await axios.put(`https://api-merm-tasks.herokuapp.com/tasksToggleDone/${id}`, {done});}
 
 export const getTask_oneRequest = async (id) =>{
-  return await axios.get(`http://localhost:4100/tasks/${id}`);
+  return await axios.get(`https://api-merm-tasks.herokuapp.com/tasks/${id}`);
 }
